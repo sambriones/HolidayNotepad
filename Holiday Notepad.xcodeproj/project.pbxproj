@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		222523FD21F9426A00459FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222523FC21F9426A00459FD7 /* AppDelegate.swift */; };
-		222523FF21F9426A00459FD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222523FE21F9426A00459FD7 /* ViewController.swift */; };
+		222523FF21F9426A00459FD7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222523FE21F9426A00459FD7 /* ItemViewController.swift */; };
 		2225240221F9426A00459FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225240021F9426A00459FD7 /* Main.storyboard */; };
 		2225240521F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2225240321F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld */; };
 		2225240721F9427400459FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2225240621F9427400459FD7 /* Assets.xcassets */; };
 		2225240A21F9427500459FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225240821F9427500459FD7 /* LaunchScreen.storyboard */; };
+		2225241821F98EA500459FD7 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225241721F98EA500459FD7 /* ActivityTableViewController.swift */; };
+		2225241A21F9AACF00459FD7 /* DestinationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		222523F921F9426A00459FD7 /* Holiday Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holiday Notepad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222523FC21F9426A00459FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		222523FE21F9426A00459FD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222523FE21F9426A00459FD7 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		2225240121F9426A00459FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2225240421F9426A00459FD7 /* Holiday_Notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holiday_Notepad.xcdatamodel; sourceTree = "<group>"; };
 		2225240621F9427400459FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2225240921F9427500459FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2225240B21F9427500459FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2225241721F98EA500459FD7 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +61,40 @@
 			isa = PBXGroup;
 			children = (
 				222523FC21F9426A00459FD7 /* AppDelegate.swift */,
-				222523FE21F9426A00459FD7 /* ViewController.swift */,
-				2225240021F9426A00459FD7 /* Main.storyboard */,
-				2225240621F9427400459FD7 /* Assets.xcassets */,
-				2225240821F9427500459FD7 /* LaunchScreen.storyboard */,
+				2225241121F9432E00459FD7 /* Controllers */,
+				2225241221F9437900459FD7 /* Views */,
+				2225241321F9439200459FD7 /* Supporting Files */,
 				2225240B21F9427500459FD7 /* Info.plist */,
 				2225240321F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld */,
 			);
 			path = "Holiday Notepad";
+			sourceTree = "<group>";
+		};
+		2225241121F9432E00459FD7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */,
+				2225241721F98EA500459FD7 /* ActivityTableViewController.swift */,
+				222523FE21F9426A00459FD7 /* ItemViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2225241221F9437900459FD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2225240021F9426A00459FD7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2225241321F9439200459FD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2225240821F9427500459FD7 /* LaunchScreen.storyboard */,
+				2225240621F9427400459FD7 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222523FF21F9426A00459FD7 /* ViewController.swift in Sources */,
+				222523FF21F9426A00459FD7 /* ItemViewController.swift in Sources */,
 				222523FD21F9426A00459FD7 /* AppDelegate.swift in Sources */,
+				2225241A21F9AACF00459FD7 /* DestinationsTableViewController.swift in Sources */,
+				2225241821F98EA500459FD7 /* ActivityTableViewController.swift in Sources */,
 				2225240521F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
