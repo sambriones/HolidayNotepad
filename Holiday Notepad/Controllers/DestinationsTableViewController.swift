@@ -47,12 +47,10 @@ class DestinationsTableViewController: SwipeTableViewController {
         if let destination = destinations?[indexPath.row] {
             
             cell.textLabel?.text = destination.cityName
+            guard let destinationColour = UIColor(hexString: destination.colour) else {fatalError()}
+            cell.backgroundColor = destinationColour
+            cell.textLabel?.textColor = ContrastColorOf(destinationColour, returnFlat:  true)
         }
-            
-        guard let destinationColour = UIColor(hexString: destination.colour) else {fatalError()}
-        cell.backgroundColor = destinationColour
-        cell.textLabel?.textColor = ContrastColorOf(destinationColour, returnFlat:  true)
-            
         return cell
         
         
