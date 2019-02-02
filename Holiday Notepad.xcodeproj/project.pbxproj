@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EEEA32616997D9360811AC2 /* Pods_Holiday_Notepad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2D9AE8CFCB1A33FABF4101 /* Pods_Holiday_Notepad.framework */; };
 		222523FD21F9426A00459FD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222523FC21F9426A00459FD7 /* AppDelegate.swift */; };
 		222523FF21F9426A00459FD7 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222523FE21F9426A00459FD7 /* ItemViewController.swift */; };
 		2225240221F9426A00459FD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225240021F9426A00459FD7 /* Main.storyboard */; };
-		2225240521F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2225240321F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld */; };
 		2225240721F9427400459FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2225240621F9427400459FD7 /* Assets.xcassets */; };
 		2225240A21F9427500459FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2225240821F9427500459FD7 /* LaunchScreen.storyboard */; };
 		2225241821F98EA500459FD7 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225241721F98EA500459FD7 /* ActivityTableViewController.swift */; };
 		2225241A21F9AACF00459FD7 /* DestinationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */; };
+		222524252205960400459FD7 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222524242205960400459FD7 /* Destination.swift */; };
+		22252427220596CB00459FD7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22252426220596CB00459FD7 /* Item.swift */; };
+		2225242922059C0800459FD7 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225242822059C0800459FD7 /* SwipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B596DAD40F66451069D9CC4 /* Pods-Holiday Notepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holiday Notepad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Holiday Notepad/Pods-Holiday Notepad.release.xcconfig"; sourceTree = "<group>"; };
 		222523F921F9426A00459FD7 /* Holiday Notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Holiday Notepad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		222523FC21F9426A00459FD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222523FE21F9426A00459FD7 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		2225240121F9426A00459FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2225240421F9426A00459FD7 /* Holiday_Notepad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Holiday_Notepad.xcdatamodel; sourceTree = "<group>"; };
 		2225240621F9427400459FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2225240921F9427500459FD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2225240B21F9427500459FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2225241721F98EA500459FD7 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
 		2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsTableViewController.swift; sourceTree = "<group>"; };
+		222524242205960400459FD7 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		22252426220596CB00459FD7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2225242822059C0800459FD7 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		AAB569E855D52C43391AAA73 /* Pods-Holiday Notepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Holiday Notepad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Holiday Notepad/Pods-Holiday Notepad.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2D9AE8CFCB1A33FABF4101 /* Pods_Holiday_Notepad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Holiday_Notepad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEEA32616997D9360811AC2 /* Pods_Holiday_Notepad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +55,8 @@
 			children = (
 				222523FB21F9426A00459FD7 /* Holiday Notepad */,
 				222523FA21F9426A00459FD7 /* Products */,
+				A44CE5DD52A80CD8C36BDEF4 /* Pods */,
+				BF69695B956476CA9AB5E4BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,11 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				222523FC21F9426A00459FD7 /* AppDelegate.swift */,
+				22252423220595DA00459FD7 /* Models */,
 				2225241121F9432E00459FD7 /* Controllers */,
 				2225241221F9437900459FD7 /* Views */,
 				2225241321F9439200459FD7 /* Supporting Files */,
 				2225240B21F9427500459FD7 /* Info.plist */,
-				2225240321F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld */,
 			);
 			path = "Holiday Notepad";
 			sourceTree = "<group>";
@@ -76,6 +87,7 @@
 				2225241921F9AACF00459FD7 /* DestinationsTableViewController.swift */,
 				2225241721F98EA500459FD7 /* ActivityTableViewController.swift */,
 				222523FE21F9426A00459FD7 /* ItemViewController.swift */,
+				2225242822059C0800459FD7 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -97,6 +109,32 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22252423220595DA00459FD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				222524242205960400459FD7 /* Destination.swift */,
+				22252426220596CB00459FD7 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A44CE5DD52A80CD8C36BDEF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAB569E855D52C43391AAA73 /* Pods-Holiday Notepad.debug.xcconfig */,
+				1B596DAD40F66451069D9CC4 /* Pods-Holiday Notepad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF69695B956476CA9AB5E4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD2D9AE8CFCB1A33FABF4101 /* Pods_Holiday_Notepad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2225240E21F9427500459FD7 /* Build configuration list for PBXNativeTarget "Holiday Notepad" */;
 			buildPhases = (
+				2AEF533C313C5D0D29B51527 /* [CP] Check Pods Manifest.lock */,
 				222523F521F9426A00459FD7 /* Sources */,
 				222523F621F9426A00459FD7 /* Frameworks */,
 				222523F721F9426A00459FD7 /* Resources */,
+				D970C528970F6B36DF619835 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +203,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AEF533C313C5D0D29B51527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Holiday Notepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D970C528970F6B36DF619835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Holiday Notepad/Pods-Holiday Notepad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Holiday Notepad/Pods-Holiday Notepad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		222523F521F9426A00459FD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -170,9 +263,11 @@
 			files = (
 				222523FF21F9426A00459FD7 /* ItemViewController.swift in Sources */,
 				222523FD21F9426A00459FD7 /* AppDelegate.swift in Sources */,
+				222524252205960400459FD7 /* Destination.swift in Sources */,
+				2225242922059C0800459FD7 /* SwipeTableViewController.swift in Sources */,
 				2225241A21F9AACF00459FD7 /* DestinationsTableViewController.swift in Sources */,
+				22252427220596CB00459FD7 /* Item.swift in Sources */,
 				2225241821F98EA500459FD7 /* ActivityTableViewController.swift in Sources */,
-				2225240521F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +411,7 @@
 		};
 		2225240F21F9427500459FD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB569E855D52C43391AAA73 /* Pods-Holiday Notepad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -334,6 +430,7 @@
 		};
 		2225241021F9427500459FD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B596DAD40F66451069D9CC4 /* Pods-Holiday Notepad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,19 +469,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2225240321F9426A00459FD7 /* Holiday_Notepad.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2225240421F9426A00459FD7 /* Holiday_Notepad.xcdatamodel */,
-			);
-			currentVersion = 2225240421F9426A00459FD7 /* Holiday_Notepad.xcdatamodel */;
-			path = Holiday_Notepad.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 222523F121F9426A00459FD7 /* Project object */;
 }
